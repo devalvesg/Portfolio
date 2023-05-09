@@ -9,8 +9,7 @@
   
   
 </div>
-
-[Screenshot_2](https://user-images.githubusercontent.com/109531207/236978892-15feca78-4de6-4c84-87aa-d3bb038458c5.png)
+![Screenshot_2](https://user-images.githubusercontent.com/109531207/236979065-644f0c2d-ca38-4e84-8240-de2ae2e40110.png)
 
 <div style="display: inline_block">
   
