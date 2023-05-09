@@ -1,0 +1,386 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quando', serif;
+}
+
+/*HEADER*/
+
+#cabecalho {
+    display: flex;
+    background: rgb(0, 0, 0);
+    height: 120px;
+    width: 100%;
+    border-bottom: 1px solid rgba(251, 255, 0, 0.233);
+    position: fixed;
+    z-index: 1;
+}
+
+
+#logo {
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 40px;
+    position: absolute;
+    left: 110px;
+    color: white;
+    text-shadow: 3px 2px 2px rgb(251, 255, 0);
+    display: flex;
+    height: 40px;
+    animation: dropdown 1s ease-in alternate infinite;
+}
+
+@keyframes dropdown {
+    to {
+        transform: translateY(20px);
+    }
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 50px;
+    margin-left: 950px;
+    /* border: 1px solid red; */
+    list-style: none;
+    width: 600px;
+
+}
+
+#menu li a {
+    color: rgb(255, 255, 255);
+    /* text-shadow: black 1px 1px 8px; */
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+}
+
+
+#menu li a::after {
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: rgb(251, 255, 0);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 100px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 1px 1px 3px rgb(251, 255, 0);
+}
+
+#menu li a:hover::after {
+    width: 100%;
+
+}
+
+
+
+/*MAIN*/
+
+main {
+    background: rgb(0, 0, 0);
+    height: 700px;
+    color: white;
+    display: flex;
+    position: relative;
+    top: 120px;
+}
+
+.minhaFoto img {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    box-shadow: 2px 2px 12px rgb(251, 255, 0);
+    animation: sombra 2s infinite alternate;
+}
+
+.minhaFoto {
+    height: 350px;
+    margin-right: 250px;
+    margin-top: 120px;
+
+}
+
+.boasVindas {
+    height: 120px;
+    width: 500px;
+    margin-top: 350px;
+    left: 150px;
+    position: absolute;
+
+}
+
+#apresentacao {
+    display: block;
+    width: 1500px;
+    height: 200px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+#apresentacao h1 {
+    font-size: 50px;
+}
+
+#apresentacao p {
+    font-size: 20px;
+}
+
+#linha {
+    border-right: 2px solid rgb(251, 255, 0);
+    animation: pisca 800ms infinite normal, typing 2s steps(40) 1s normal;
+    white-space: nowrap;
+    width: 160px;
+    overflow: hidden;
+}
+
+
+#download {
+    padding: 17px 40px;
+    border-radius: 50px;
+    margin-top: 70px;
+    position: relative;
+    top: 50px;
+    left: 70px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgba(255, 255, 255, 0.267) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+    text-decoration: none;
+    color: black;
+}
+
+#download:hover {
+    letter-spacing: 3px;
+    background-color: rgb(0, 0, 0);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(251, 255, 0) 0px 7px 29px 0px;
+}
+
+#download:active {
+    letter-spacing: 3px;
+    background-color: rgb(251, 255, 0);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(251, 255, 0) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 160px;
+    }
+}
+
+@keyframes pisca {
+    from {
+        border-right: 2px solid rgb(251, 255, 0);
+    }
+
+    to {
+        border-right: transparent;
+    }
+}
+
+@keyframes sombra{
+    from{
+        box-shadow: 2px 2px 12px rgb(251, 255, 0);
+    }
+    to{
+        box-shadow: 2px 2px 4px rgb(251, 255, 0);
+    }
+}
+
+section{
+    height: 900px;
+    color: white;
+    display: flex;
+}
+
+#sobreMim{
+    background-color: rgba(0, 0, 0, 0.856);
+}
+
+#container2{
+    border: 1px solid red;
+    width: 500px;
+    height: 500px;
+    margin-left: 150px;
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container2 h1{
+    font-size: 45px;
+    text-shadow: 3px 2px 8px rgb(251, 255, 0);
+}
+
+#container2 p{
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.carrossel{
+    height: 650px;
+    width: 400px;
+    position: absolute;
+    right: 170px;
+    margin-top: 150px;
+    overflow: hidden;
+}
+
+.carrossel h1{
+    font-size: 45px;
+    text-shadow: 3px 2px 8px rgb(251, 255, 0);
+    margin-left: 35px;
+}
+
+.info-card{
+    height: 200px;
+    width: 300px;
+    margin-left: 20px;
+    position: absolute;
+    display: none;
+}
+
+.cards{
+    display: flex;
+    position: relative;
+    height: 500px;
+    width: 1500px;
+    right: 1140px;
+    animation: carrossel 10s ease alternate-reverse infinite;
+    margin-top: 50px;
+    gap: 80px;
+    padding: 0 50px;
+}
+
+.card img{
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+}
+
+.card{
+    height: 500px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.cards:hover{
+    animation-play-state: paused;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: .8s;
+}
+
+.card:hover .info-card{
+    display: flex;
+    transition: 2s;
+}
+
+#card-html{
+    background: rgb(255, 0, 0);
+    background: linear-gradient(180deg, rgba(121,9,9,1) 0%, rgb(0, 0, 0) 100%);
+    box-shadow: 2px 2px 12px rgb(255, 255, 255)
+}
+
+#card-css{
+    background: rgba(0, 8, 255, 0.497);
+    background: linear-gradient(180deg, rgb(0, 8, 255) 0%, rgb(0, 0, 0) 100%);
+    box-shadow: 2px 2px 12px rgb(255, 255, 255)
+}
+
+#card-js{
+    background: rgb(246, 255, 0);
+    background: linear-gradient(180deg, rgba(245,255,0,1) 0%, rgb(0, 0, 0) 100%);
+    box-shadow: 2px 2px 12px rgb(255, 255, 255)
+}
+
+#card-git{
+    background: rgb(255, 145, 0);
+    background: linear-gradient(180deg, rgb(255, 162, 0) 0%, rgb(0, 0, 0) 100%);
+    box-shadow: 2px 2px 12px rgb(255, 255, 255)
+}
+
+.text-card{
+    height: 100px;
+    width: 280px;
+    margin-top: 160px;
+    position: absolute;
+    font-size: 18px;
+}
+
+.conhecimento{
+    position: absolute;
+}
+
+#ul-html{
+    margin-top: 300px;
+    font-size: 17px;
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+
+#ul-css{
+    margin-top: 350px;
+    font-size: 17px;
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+#ul-js{
+    margin-top: 350px;
+    font-size: 17px;
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+#ul-git{
+    margin-top: 330px;
+    font-size: 17px;
+    list-style-type: none;
+    width: 280px;
+}
+
+@keyframes carrossel{
+    0%{
+        right: 0px;
+    }
+
+    35%{
+        right: 380px;
+    }
+
+    70%{
+        right: 760px;
+    }
+
+    100%{
+        right: 1140px;
+    }
+}
+
+
+
+footer{
+    position: relative;
+    margin-top: 120px;
+}
