@@ -10,7 +10,7 @@
   
 </div>
 
-<img src ="[Screenshot_2](https://user-images.githubusercontent.com/109531207/236978892-15feca78-4de6-4c84-87aa-d3bb038458c5.png)" />
+[Screenshot_2](https://user-images.githubusercontent.com/109531207/236978892-15feca78-4de6-4c84-87aa-d3bb038458c5.png)
 
 <div style="display: inline_block">
   
