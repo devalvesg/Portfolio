@@ -1,10 +1,13 @@
+var section2 = document.getElementById('sobreMim');
+var section3 = document.getElementById('projetos');
+var message = document.querySelector('.message');
+
 window.addEventListener('scroll', function() {
-    var navbar = document.querySelector('.navbar');
-    var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-  
-    if (scrollTop > 0) {
-      navbar.classList.add('navbar-scroll');
-    } else {
-      navbar.classList.remove('navbar-scroll');
-    }
-  });
+  var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (scrollTop >= section2.offsetTop && scrollTop < section3.offsetTop) {
+    message.classList.add('show');
+  } else {
+    message.classList.remove('show');
+  }
+});
