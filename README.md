@@ -9,8 +9,8 @@
   
   
 </div>
-![Screenshot_2](https://user-images.githubusercontent.com/109531207/236979065-644f0c2d-ca38-4e84-8240-de2ae2e40110.png)
-
+![Portfolio](https://github.com/devalvesg/Portfolio/assets/109531207/9073455b-b640-4b08-8b0e-a0b85f6f169d)
+<br>
 <div style="display: inline_block">
   
 <a href = "mailto:gabrieldamasceno881@outlook.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
