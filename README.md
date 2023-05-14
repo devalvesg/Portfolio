@@ -9,7 +9,7 @@
   
   
 </div>
-![Portfolio](https://github.com/devalvesg/Portfolio/assets/109531207/9073455b-b640-4b08-8b0e-a0b85f6f169d)
+![image](https://github.com/devalvesg/Portfolio/assets/109531207/3f48c82a-2844-4fc7-8eb5-c27f791488ff)
 <br>
 <div style="display: inline_block">
   
