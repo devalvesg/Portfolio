@@ -7,9 +7,7 @@
 <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
   
   
-  
-</div>
-![Portfolio imagem](assets/Portfolio.png)
+![Portfolio](https://github.com/devalvesg/Portfolio/assets/109531207/28fb645a-d856-462d-be05-dc721a4ccdd7)
 
 <div style="display: inline_block">
   
