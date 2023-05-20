@@ -9,7 +9,7 @@
   
   
 </div>
-![Screenshot_2](https://user-images.githubusercontent.com/109531207/236979065-644f0c2d-ca38-4e84-8240-de2ae2e40110.png)
+![Portfolio imagem](assets/Portfolio.png)
 
 <div style="display: inline_block">
   
