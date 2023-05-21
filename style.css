@@ -23,7 +23,7 @@
 }
 
 
-#logo {
+#logo a{
     margin-top: 20px;
     font-size: 30px;
     margin-left: 40px;
@@ -34,6 +34,8 @@
     display: flex;
     height: 40px;
     animation: dropdown 1s ease-in alternate infinite;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 @keyframes dropdown {
@@ -87,7 +89,7 @@
 
 main {
     background: rgb(0, 0, 0);
-    height: 700px;
+    height: 650px;
     color: white;
     display: flex;
     position: relative;
@@ -215,6 +217,7 @@ section {
 
 #sobreMim {
     background-color: rgba(0, 0, 0, 0.945);
+    margin-top: 120px;
 }
 
 #container2 {
@@ -554,7 +557,6 @@ footer img {
     height: 40px;
 }
 
-
 .logo-contato {
     width: 250px;
     margin-left: 600px;
@@ -654,7 +656,6 @@ footer img {
         display: flex;
         position: relative;
         top: 120px;
-
     }
 
     .minhaFoto img {

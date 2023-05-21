@@ -39,3 +39,12 @@ function showOff() {
   icon.style.display = 'flex'
   close.style.display = 'none'
 }
+
+window.sr = ScrollReveal({reset: true});
+
+sr.reveal('#cabecalho', {duration: 1500})
+sr.reveal('#inicio', {duration: 1500})
+sr.reveal('#sobreMim', {duration: 1500})
+sr.reveal('#habilidades', {duration: 1500})
+sr.reveal('#projetos', {duration: 1500})
+sr.reveal('footer', {duration: 1500})
