@@ -309,6 +309,12 @@
         right: 200px;
     }
 
+
+    #logo a {
+        margin-left: 0px;
+        left: 50px;  
+    }
+
     .minhaFoto {
         position: relative;
         left: 80px;

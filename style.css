@@ -381,6 +381,7 @@ section {
     border-radius: 10px;
     opacity: 0;
     transition: opacity 0.5s ease;
+    z-index: 1;
 }
 
 .message.show {
