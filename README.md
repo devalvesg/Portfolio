@@ -2,12 +2,13 @@
 
 <div style="display: inline_block">
 
+
 <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />
 <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" />
 <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
   
-  
-![Portfolio](https://github.com/devalvesg/Portfolio/assets/109531207/28fb645a-d856-462d-be05-dc721a4ccdd7)
+![Screenshot_1](https://github.com/devalvesg/Portfolio/assets/109531207/bd6d9df1-3bd9-4731-b96d-a4b188d55b50)
+
 
 <div style="display: inline_block">
   
